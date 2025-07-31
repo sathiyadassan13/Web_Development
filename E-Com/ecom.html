@@ -1,0 +1,549 @@
+ <!DOCTYPE html-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website using HTML, CSS, and JavaScript</title>
+    <link rel="stylesheet" href="ecom.css">
+    <link rel="shortcut icon" href="images/fav-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <section id="main">
+        <header>
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+<!--**header-top*****-->
+            <div class="header-top">
+                <label for="menu-btn" class="menu-icon">
+                    <span class="nav-icon"></span>
+                </label>
+
+                <div class="nav-location">
+                    <a href="#"><i class="fa-solid fa-location-dot"></i> Store Locate</a>
+                </div>
+
+<!--**logo***********-->
+                <a class="logo" href="index.html">
+                    <img alt="logo" src="" />
+                </a>
+
+<!--**contact-btn****-->
+                <div class="nav-btns">
+ <!--search-->
+                    <a class="nav-search" href="javascript:void(0);">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+<!--user-->
+                    <a class="nav-user" href="javascript:void(0);">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+<!--cart-->
+                    <a class="nav-cart" href="#">
+                        <i class="fa-brands fa-opencart"></i>
+                        <span>0</span>
+                    </a>
+                </div>
+            </div>
+
+<!--**nav************-->
+            <nav class="nav-location">
+<!--**menu***********-->
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#category">Category</a></li>
+                    <li><a href="#shopping-banner">Shop</a></li>
+                    <li>
+                        <a href="#popular-dress">Populer</a>
+                        <span class="nav-lable">Hot Offer</span>
+                    </li>
+                    <li><a href="#recent-products">Recent</a></li>
+                </ul>
+            </nav>
+        </header>
+ <!--==content============================-->
+        <div class="main-content">
+            <div class="main-content-text">
+                <strong>Collection</strong>
+                <h1>FashionFizz</h1>
+                <p>Let your style sparkle — add some fizz to your fit!
+                </p>
+                <a href="#">Shop Now</a>
+            </div>
+            <div class="main-content-img">
+                <img alt="model" src="fashionfizz.jpeg">
+            </div>
+        </div>
+
+    </section>
+<!--==category======================-->
+    <section id="category">
+        <a class="category-box" href="#">
+            <div class="category-box-img">
+                <img alt="hand bag" src="handbag1.webp">
+            </div>
+            <strong>Hand Bag</strong>
+        </a>
+        <a class="category-box" href="#">
+            <div class="category-box-img">
+                <img alt="T-Shirt" src="t shirts.webp">
+            </div>
+            <strong>T-Shirt</strong>
+        </a>
+        <a class="category-box" href="#">
+            <div class="category-box-img">
+                <img alt="Sunglass" src="sunglass.webp">
+            </div>
+            <strong>Sunglass</strong>
+        </a>
+        <a class="category-box" href="#">
+            <div class="category-box-img">
+                <img alt="shirts for men" src="shirts for men.jpg">
+            </div>
+            <strong>shirts</strong>
+        </a>
+        <a class="category-box" href="#">
+            <div class="category-box-img">
+                <img alt="Shoes" src="shoes.avif">
+            </div>
+            <strong>Shoes</strong>
+        </a>
+        <a class="category-box" href="#">
+            <div class="category-box-img">
+                <img alt="Watch" src="watch.jfif">
+            </div>
+            <strong>Watch</strong>
+        </a>
+    </section>
+<!--==popular-dress=================-->
+    <section id="popular-dress">
+        <h2>Popular Dresses</h2>
+        <div class="popular-dress-container">
+<!--product-container-->
+            <div class="popular-product-container">
+ <!--product-box-->
+                <div class="product-box">
+                    <a class="product-box-img" href="#">
+                        <img alt="product" src="mobile.jpg">
+                        <span>5%offer</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a class="product-text-title" href="#">mobile</a>
+                        <span>₹69,999 <del>₹89,999</del></span>
+                        <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+<!--product-box-->
+                <div class="product-box">
+                    <a class="product-box-img" href="#">
+                        <img alt="product" src="toys.jpg">
+                        <span>19% offer</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a class="product-text-title" href="#">car</a>
+                        <span>₹1999<del>₹2999</del></span>
+                        <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+<!--product-box-->
+                <div class="product-box">
+                    <a class="product-box-img" href="#">
+                        <img alt="product" src="gaming-laptop.jpg">
+                        <span>13%offer</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a class="product-text-title" href="#">gaming loptop</a>
+                        <span>₹99,999<del>₹105999</span>
+                        <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+<!--product-box-->
+                <div class="product-box">
+                    <a class="product-box-img" href="#">
+                        <img alt="product" src="speaker.webp">
+                        <span>30%offer</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a class="product-text-title" href="#">sony speaker</a>
+                        <span>₹4999 <del>₹7999</del></span>
+                        <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+ <!--product-box-->
+                <div class="product-box">
+                    <a class="product-box-img" href="#">
+                        <img alt="product" src="KITCHEN.jpg">
+                        <span>29%offer</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a class="product-text-title" href="#">mixer grinder</a>
+                        <span>₹4999 <del>₹6999</del></span>
+                        <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+<!--product-box-->
+                <div class="product-box">
+                    <a class="product-box-img" href="#">
+                        <img alt="product" src="sofaset.jpg">
+                        <span>69%offer</span>
+                    </a>
+                    <div class="product-box-text">
+                        <a class="product-text-title" href="#">sofaset</a>
+                        <span>₹9999 <del>₹12,999</del></span>
+                        <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+<!--banner-->
+            <div class="popular-banner">
+                <div class="popular-banner-text">
+                    <h3>Summer Dress Collection</h3>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="popular-banner-img">
+                    <img alt="" src="Summer Dress Collection.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+<!--==shopping-banner===============-->
+    <section id="shopping-banner">
+        <div class="shopping-banner-container">
+            <div class="shopping-banner-text">
+                <strong>Collection</strong>
+                <h3>Stylish Bag and Shoes</h3>
+                <p>Carry confidence. Carry style & Your journey begins with the perfect pair
+                </p>
+                <a href="#">Shop Now</a>
+            </div>
+            <div class="shopping-banner-img">
+                <img alt="" src="Intel-Core-i5-12th-Gen-1.jpg">
+            </div>
+        </div>
+    </section>
+<!--==recent-products===============-->
+    <section id="recent-products">
+        <h2>Recent Product</h2>
+        <div class="recent-product-container">
+<!--product-box-->
+            <div class="product-box">
+                <a class="product-box-img" href="#">
+                    <img alt="product" src="headphone.webp">
+                    <span>33%offer</span>
+                </a>
+                <div class="product-box-text">
+                    <a class="product-text-title" href="#">headphone</a>
+                    <span>₹999 <del>₹1999</del></span>
+                    <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+<!--product-box-->
+            <div class="product-box">
+                <a class="product-box-img" href="#">
+                    <img alt="product" src="mousepad.webp">
+                    <span>26%offer</span>
+                </a>
+                <div class="product-box-text">
+                    <a class="product-text-title" href="#">mousepad</a>
+                    <span>₹249 <del>₹399</del></span>
+                    <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+<!--product-box-->
+            <div class="product-box">
+                <a class="product-box-img" href="#">
+                    <img alt="product" src="mouse.jpg">
+                    <span>19%offer</span>
+                </a>
+                <div class="product-box-text">
+                    <a class="product-text-title" href="#">mouse</a>
+                    <span>₹499 <del>₹699 </del></span>
+                    <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+<!--product-box-->
+            <div class="product-box">
+                <a class="product-box-img" href="#">
+                    <img alt="product" src="keybord.webp">
+                    <span>26%offer</span>
+                </a>
+                <div class="product-box-text">
+                    <a class="product-text-title" href="#">keyboard</a>
+                    <span>₹759 <del>₹ 999</del></span>
+                    <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+ <!--==shoes-bags-products===============-->
+    <section id="recent-products">
+        <h2>Shoes And Bags</h2>
+        <div class="recent-product-container">
+<!--product-box-->
+            <div class="product-box">
+                <a class="product-box-img" href="#">
+                    <img alt="product" src="bag.webp">
+                    <span>40%offer</span>
+                </a>
+                <div class="product-box-text">
+                    <a class="product-text-title" href="#">Bags</a>
+                    <span>₹499 <del>₹699</del></span>
+                    <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+<!--product-box-->
+            <div class="product-box">
+                <a class="product-box-img" href="#">
+                    <img alt="product" src="shoes.avif">
+                    <span>27%offer</span>
+                </a>
+                <div class="product-box-text">
+                    <a class="product-text-title" href="#">shoes for mens</a>
+                    <span>₹399 <del>₹599 </del></span>
+                    <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+<!--product-box-->
+            <div class="product-box">
+                <a class="product-box-img" href="#">
+                    <img alt="product" src="school bag.jpg">
+                    <span>65%offer</span>
+                </a>
+                <div class="product-box-text">
+                    <a class="product-text-title" href="#">school bags boys/girls</a>
+                    <span>₹699 <del>₹999 </del></span>
+                    <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+<!--product-box-->
+            <div class="product-box">
+                <a class="product-box-img" href="#">
+                    <img alt="product" src="shoes for women.jpg">
+                    <span>43%offer</span>
+                </a>
+                <div class="product-box-text">
+                    <a class="product-text-title" href="#">shoes for women</a>
+                    <span>₹299 <del>₹599</del></span>
+                    <a class="product-cart-btn" href="#"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="services">
+<!--services-box-->
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Free Shipping</span>
+            <p>Free Shipping for all US order</p>
+        </div>
+ <!--services-box-->
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Support 24/7</span>
+            <p>We support 24h a day</p>
+        </div>
+<!--services-box-->
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>100% Money Back</span>
+            <p>You have 6 days to Return</p>
+        </div>
+
+    </section>
+
+<!--==footer==========================-->
+    <footer>
+        <div class="footer-container">
+<!--**comoany-box**-->
+            <div class="footer-company-box">
+<!--logo-->
+                <a class="footer-logo" href="index.html">
+                    <img alt="" src="images/logo.png">
+                </a>
+<!--details-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quas neque repudiandae nihil.</p>
+<!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+<!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Populer</a></li>
+                    <li><a href="#">Recent</a></li>
+                </ul>
+            </div>
+<!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>Social Link's</strong>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                </ul>
+            </div>
+ <!--**Subscribe***-->
+            <div class="footer-subscribe">
+                <strong>Subscribe Now</strong>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita quod id sed nemo. Haru.</p>
+                <div class="subscribe-box">
+                    <input type="email" placeholder="sathiyadassan@gmail.com" required />
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+<!--**bottom**********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">Made By FashionFizz</span>
+            <span class="copyright">&#169; Copyright 2025- fashionfizz</span>
+        </div>
+    </footer>
+
+
+<!--==search-bar======================-->
+    <div class="search-bar">
+
+<!--search-input-->
+        <div class="search-input">
+            <input type="text" placeholder="Search For Product" name="search" />
+<!--cancel-btn-->
+            <a class="search-cancel" href="javascript:void(0);">
+                <i class="fas fa-times"></i>
+            </a>
+
+        </div>
+    </div>
+
+<!--==login-and-sign-up===============-->
+    <div class="form">
+        <!--login-->
+        <div class="login-form">
+<!--cancel-btn-->
+            <a class="form-cancel" href="javascript:void(0);">
+                <i class="fas fa-times"></i>
+            </a>
+            <strong>Log In</strong>
+<!--inputs-->
+            <form>
+                <input type="email" name="email" placeholder="Example@gmail.com" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <input type="submit" value="Log In" />
+            </form>
+<!--forget-and-sign-up-btn-->
+            <div class="form-btns">
+                <a class="forget" href="#">Forget Your Password?</a>
+                <a class="sign-up-btn" href="javascript:void(0);">Create Account</a>
+            </div>
+        </div>
+
+<!--Sign-up-->
+        <div class="sign-up-form">
+<!--cancel-btn-->
+            <a class="form-cancel" href="javascript:void(0);">
+                <i class="fas fa-times"></i>
+            </a>
+            <strong>Sign Up</strong>
+<!--inputs-->
+            <form>
+                <input type="text" name="fullname" placeholder="Full Name" required />
+                <input type="email" name="email" placeholder="Example@gmail.com" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <input type="submit" value="Sign Up" />
+            </form>
+<!--forget-and-sign-up-btn-->
+            <div class="form-btns">
+                <a class="already-account" href="javascript:void(0);">
+                    Already Have Account?</a>
+
+            </div>
+        </div>
+
+    </div>
+<!--==script==========================-->
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function () {
+        
+//==for search=====================================//
+            document.addEventListener('click', function (event) {
+                if (event.target.closest('.nav-search')) {
+                    document.querySelector('.search-bar').classList.add('search-bar-active');
+                } else if (event.target.closest('.search-cancel')) {
+                    document.querySelector('.search-bar').classList.remove('search-bar-active');
+                }
+            });
+//==For Login and Sign-up========================//
+            document.addEventListener('click', function (event) {
+// Check if the clicked element has the class 'user' or 'already-account'
+                if (event.target.closest('.nav-user, .already-account')) {
+                    const formElement = document.querySelector('.form');
+                    formElement.classList.add('login-active');
+                    formElement.classList.remove('sign-up-active');
+                }
+
+// Check if the clicked element has the class 'sign-up-btn'
+                else if (event.target.closest('.sign-up-btn')) {
+                    const formElement = document.querySelector('.form');
+                    formElement.classList.add('sign-up-active');
+                    formElement.classList.remove('login-active');
+                }
+
+// Check if the clicked element has the class 'form-cancel'
+                else if (event.target.closest('.form-cancel')) {
+                    const formElement = document.querySelector('.form');
+                    formElement.classList.remove('login-active');
+                    formElement.classList.remove('sign-up-active');
+                }
+            });
+
+//==for fix header===========================//
+            const header = document.querySelector('header');
+            let lastScrollY = window.scrollY; // Store the last scroll position
+
+            window.addEventListener('scroll', function () {
+                const currentScrollY = window.scrollY;
+
+// Check if at the top
+                if (currentScrollY === 0) {
+                    header.classList.remove('header-fix');
+                } else if (currentScrollY < lastScrollY) {
+ // Scrolling up
+                    header.classList.add('header-fix');
+                } else {
+                    header.classList.remove('header-fix');
+                }
+
+// Update the last scroll position
+                lastScrollY = currentScrollY;
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
+    
